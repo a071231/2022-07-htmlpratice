@@ -57,8 +57,8 @@
         <div class="banner">
             <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png" alt="六角學院讓您奠定好前端基礎">
             <div class="text-box"></div>
-            <span class="text-xl text-white">六角學院<br>
-                讓您奠定好前端基礎</span>
+            <h2 class="text-xl text-white">六角學院<br>
+                讓您奠定好前端基礎</h2>
         </div>        
         <ul class="content">
             <li class="content-list">
@@ -138,17 +138,25 @@
             <h2 class="f-mid fw-400 text-white text-l">對我們課程有興趣嗎？<br>
                 歡迎留下您的資料</h2>
             <div class="information">
-                <div class="pic"></div>
+            <textarea class="chat-box" rows="10" cols="30">
+                        請留下想對我們說的話....
+            </textarea>
                 <form action="#">
-                    <ul>
-                      <li><label class="text-white text-s" for="p-name">姓名</label></li> 
-                      <li><input id="p-name" type="text" placeholder="六角講師" name="p-name">   
-                      <li><label class="text-white text-s" for="phone">電話</label></li>
-                      <li><input type="text" placeholder="0912345678" name="phone"></li>
-                      <li><label class="text-white text-s" for="mail">信箱</label></li>
-                      <li><input type="text" placeholder="hexschoo@mail.com" name="mail"></li>
-                      <li><input class="but-ent" type="submit" value="送出"></li>
-                    </ul>    
+                    <div>
+                        <label class="text-white text-s" for="p-name">姓名</label>
+                        <input id="p-name" type="text" placeholder="六角講師" name="p-name">
+                    </div>
+                    <div>
+                        <label class="text-white text-s" for="phone">電話</label>
+                        <input type="tel" placeholder="0912345678" name="phone">
+                    </div>
+                    <div>
+                        <label class="text-white text-s" for="mail">信箱</label>
+                        <input type="email" placeholder="hexschoo@mail.com" name="mail">
+                    </div>
+                    <div>
+                         <input class="but-ent" type="submit" value="送出">
+                    </div>
                 </form>
             </div>
         </div>
